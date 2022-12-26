@@ -5,6 +5,7 @@
 .container{
             margin-bottom: 100px;
 }
+
 .pink-price{
      color:  #d63384;
 }
@@ -20,12 +21,34 @@
         border: none;
         cursor:pointer;
 }
+.cat-1{ 
+        background-image: linear-gradient(to right,orange,rgb(255, 191, 0));
+}
 
+.cat-2{
+    background-image: linear-gradient(to right,green,rgb(12, 171, 12));
+}
 
+.cat-3{
+        background-image: linear-gradient(to right,blue,rgb(0, 76, 255));
+}
+.card{
+        border: none;
+        box-shadow: 10px 10px 20px lightgrey;
+        border-radius: 10px;
+}
+.subs{   height: 300px;
+        background-color: #fceae8;
+}
 
+.card-footer{
+                border-top: none;
+                background-color: inherit;
+}
 
-
-
-
-
-
+#subscibe{
+            height: 300px;
+}
+#subscibe h6{
+                color: lightslategray;
+}
